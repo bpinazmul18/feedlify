@@ -9,7 +9,7 @@ export const ShareIcon = () => (
   >
     <path
       stroke="#000"
-      stroke-linejoin="round"
+      strokeLinejoin="round"
       d="M23 10.5L12.917 1v5.429C3.267 6.429 1 13.258 1 20c2.785-3.52 5.248-5.429 11.917-5.429V20L23 10.5z"
     />
   </svg>

@@ -13,8 +13,8 @@ export const CommentReactionIcon = () => (
     />
     <path
       stroke="#000"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       d="M6.938 9.313h7.125M10.5 14.063h3.563"
     />
   </svg>

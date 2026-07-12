@@ -6,9 +6,9 @@ export const GroupIcon = () => (
     viewBox="0 0 24 24"
     fill="none"
     stroke="#666"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
     className="feather feather-users"
   >
     <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>

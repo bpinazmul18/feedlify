@@ -742,7 +742,7 @@ export default function FeedPage() {
 												<form action="/mobileMenu.html">
 													<button type="submit" className="_header_mobile_btn_link" value="go to mobile menu">
 														<svg xmlns="http://www.w3.org/2000/svg" width="18" height="14" fill="none" viewBox="0 0 18 14">
-															<path stroke="#666" stroke-linecap="round" stroke-width="1.5" d="M1 1h16M1 7h16M1 13h16"/>
+															<path stroke="#666" strokeLinecap="round" strokeWidth="1.5" d="M1 1h16M1 7h16M1 13h16"/>
 														</svg>													  
 													</button>
 												</form>
@@ -809,7 +809,7 @@ export default function FeedPage() {
 										<a href="profile.html" className="_mobile_navigation_bottom_link">
 											<svg xmlns="http://www.w3.org/2000/svg" width="29" height="28" fill="none" viewBox="0 0 29 28">
 												<g opacity=".6">
-												  <path className="_mobile_svg1 _dark_svg" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M23.999 24.5v-2.333a4.667 4.667 0 00-4.667-4.667H9.999a4.667 4.667 0 00-4.667 4.667V24.5M14.667 12.833a4.667 4.667 0 100-9.333 4.667 4.667 0 000 9.333z"/>
+												  <path className="_mobile_svg1 _dark_svg" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M23.999 24.5v-2.333a4.667 4.667 0 00-4.667-4.667H9.999a4.667 4.667 0 00-4.667 4.667V24.5M14.667 12.833a4.667 4.667 0 100-9.333 4.667 4.667 0 000 9.333z"/>
 												</g>
 											</svg>											  
 										</a>

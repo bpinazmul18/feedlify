@@ -12,6 +12,6 @@ export const SearchIcon = ({ className }: SearchIconProps) => (
     className={className}
   >
     <circle cx="7" cy="7" r="6" stroke="#666" />
-    <path stroke="#666" stroke-linecap="round" d="M16 16l-3-3" />
+    <path stroke="#666" strokeLinecap="round" d="M16 16l-3-3" />
   </svg>
 );

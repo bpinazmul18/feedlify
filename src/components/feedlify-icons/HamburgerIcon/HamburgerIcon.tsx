@@ -8,8 +8,8 @@ export const HamburgerIcon = () => (
   >
     <path
       stroke="#666"
-      stroke-linecap="round"
-      stroke-width="1.5"
+      strokeLinecap="round"
+      strokeWidth="1.5"
       d="M1 1h16M1 7h16M1 13h16"
     />
   </svg>

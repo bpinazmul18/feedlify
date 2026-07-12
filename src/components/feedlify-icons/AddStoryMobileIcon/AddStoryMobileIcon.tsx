@@ -8,8 +8,8 @@ export const AddStoryMobileIcon = () => (
   >
     <path
       stroke="#fff"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       d="M6 2.5v7M2.5 6h7"
     />
   </svg>

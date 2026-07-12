@@ -13,7 +13,7 @@ export const OnlineStatusDotIcon = () => (
       y="1"
       fill="#0ACF83"
       stroke="#fff"
-      stroke-width="2"
+      strokeWidth="2"
       rx="6"
     />
   </svg>

@@ -1,26 +1,38 @@
+import Image from "@/components/ui/Image";
+
 export default function LoginPage() {
   return (
     <section className="_social_login_wrapper _layout_main_wrapper">
       <div className="_shape_one">
-        <img src="assets/images/shape1.svg" alt="" className="_shape_img" />
-        <img
-          src="assets/images/dark_shape.svg"
+        <Image
+          src="/assets/images/shape1.svg"
+          alt=""
+          className="_shape_img"
+          preload
+        />
+        <Image
+          src="/assets/images/dark_shape.svg"
           alt=""
           className="_dark_shape"
         />
       </div>
       <div className="_shape_two">
-        <img src="assets/images/shape2.svg" alt="" className="_shape_img" />
-        <img
-          src="assets/images/dark_shape1.svg"
+        <Image src="/assets/images/shape2.svg" alt="" className="_shape_img" />
+        <Image
+          src="/assets/images/dark_shape1.svg"
           alt=""
           className="_dark_shape _dark_shape_opacity"
         />
       </div>
       <div className="_shape_three">
-        <img src="assets/images/shape3.svg" alt="" className="_shape_img" />
-        <img
-          src="assets/images/dark_shape2.svg"
+        <Image
+          src="/assets/images/shape3.svg"
+          alt=""
+          className="_shape_img"
+          preload
+        />
+        <Image
+          src="/assets/images/dark_shape2.svg"
           alt=""
           className="_dark_shape _dark_shape_opacity"
         />
@@ -31,10 +43,11 @@ export default function LoginPage() {
             <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12">
               <div className="_social_login_left">
                 <div className="_social_login_left_image">
-                  <img
-                    src="assets/images/login.png"
+                  <Image
+                    src="/assets/images/login.png"
                     alt="Image"
                     className="_left_img"
+                    preload
                   />
                 </div>
               </div>
@@ -42,8 +55,8 @@ export default function LoginPage() {
             <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12">
               <div className="_social_login_content">
                 <div className="_social_login_left_logo _mar_b28">
-                  <img
-                    src="assets/images/logo.svg"
+                  <Image
+                    src="/assets/images/logo.svg"
                     alt="Image"
                     className="_left_logo"
                   />
@@ -58,11 +71,11 @@ export default function LoginPage() {
                   type="button"
                   className="_social_login_content_btn _mar_b40"
                 >
-                  <img
-                    src="assets/images/google.svg"
+                  <Image
+                    src="/assets/images/google.svg"
                     alt="Image"
                     className="_google_img"
-                  />{" "}
+                  />
                   <span>Or sign-in with google</span>
                 </button>
                 <div className="_social_login_content_bottom_txt _mar_b40">

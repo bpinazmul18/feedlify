@@ -1,5 +1,6 @@
 import { LoginForm } from "@/components/auth/LoginForm";
 import Image from "@/components/ui/Image";
+import Link from "next/link";
 
 export default function LoginPage() {
   return (
@@ -89,7 +90,7 @@ export default function LoginPage() {
                     <div className="_social_login_bottom_txt">
                       <p className="_social_login_bottom_txt_para">
                         Dont have an account?{" "}
-                        <a href="#0">Create New Account</a>
+                        <Link href="/register">Create New Account</Link>
                       </p>
                     </div>
                   </div>

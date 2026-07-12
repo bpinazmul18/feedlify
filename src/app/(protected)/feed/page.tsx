@@ -1010,21 +1010,16 @@ export default function FeedPage() {
                               href="#0"
                               className="_feed_inner_ppl_card_area_link"
                             >
-                              <a
-                                href="#0"
-                                className="_feed_inner_ppl_card_area_link"
-                              >
-                                <div className="_feed_inner_ppl_card_area_story_active">
-                                  <Image
-                                    src="/assets/images/mobile_story_img1.png"
-                                    alt="Image"
-                                    className="_card_story_img1"
-                                  />
-                                </div>
-                                <p className="_feed_inner_ppl_card_area_txt">
-                                  Ryan...
-                                </p>
-                              </a>
+                              <div className="_feed_inner_ppl_card_area_story_active">
+                                <Image
+                                  src="/assets/images/mobile_story_img1.png"
+                                  alt="Image"
+                                  className="_card_story_img1"
+                                />
+                              </div>
+                              <p className="_feed_inner_ppl_card_area_txt">
+                                Ryan...
+                              </p>
                             </a>
                           </li>
                           <li className="_feed_inner_ppl_card_area_item">
@@ -1049,21 +1044,16 @@ export default function FeedPage() {
                               href="#0"
                               className="_feed_inner_ppl_card_area_link"
                             >
-                              <a
-                                href="#0"
-                                className="_feed_inner_ppl_card_area_link"
-                              >
-                                <div className="_feed_inner_ppl_card_area_story_active">
-                                  <Image
-                                    src="/assets/images/mobile_story_img1.png"
-                                    alt="Image"
-                                    className="_card_story_img1"
-                                  />
-                                </div>
-                                <p className="_feed_inner_ppl_card_area_txt">
-                                  Ryan...
-                                </p>
-                              </a>
+                              <div className="_feed_inner_ppl_card_area_story_active">
+                                <Image
+                                  src="/assets/images/mobile_story_img1.png"
+                                  alt="Image"
+                                  className="_card_story_img1"
+                                />
+                              </div>
+                              <p className="_feed_inner_ppl_card_area_txt">
+                                Ryan...
+                              </p>
                             </a>
                           </li>
                           <li className="_feed_inner_ppl_card_area_item">

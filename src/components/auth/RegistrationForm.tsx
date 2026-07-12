@@ -10,6 +10,30 @@ export function RegistrationForm() {
   return (
     <Form onSubmit={onSubmit} className="_social_registration_form">
       <div className="row">
+        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+          <Input
+            id="registration-first-name"
+            type="text"
+            label="First Name"
+            wrapperClassName="_social_registration_form_input _mar_b14"
+            labelClassName="_social_registration_label _mar_b8"
+            className="form-control _social_registration_input"
+            error={errors.firstName?.message}
+            {...register("firstName")}
+          />
+        </div>
+        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+          <Input
+            id="registration-last-name"
+            type="text"
+            label="Last Name"
+            wrapperClassName="_social_registration_form_input _mar_b14"
+            labelClassName="_social_registration_label _mar_b8"
+            className="form-control _social_registration_input"
+            error={errors.lastName?.message}
+            {...register("lastName")}
+          />
+        </div>
         <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
           <Input
             id="registration-email"

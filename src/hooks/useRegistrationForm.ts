@@ -15,6 +15,8 @@ export function useRegistrationForm() {
   } = useForm<RegistrationFormValues>({
     resolver: zodResolver(registrationSchema),
     defaultValues: {
+      firstName: "",
+      lastName: "",
       email: "",
       password: "",
       repeatPassword: "",

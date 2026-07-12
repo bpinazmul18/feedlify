@@ -10,12 +10,24 @@ const Password = z
   .check(z.minLength(1, { error: "Password is required" }))
   .min(8, { error: "Password must be at least 8 characters" });
 
+const FirstName = z
+  .string()
+  .check(z.minLength(1, { error: "First name is required" }))
+  .max(50, { error: "First name must be at most 50 characters" });
+
+const LastName = z
+  .string()
+  .check(z.minLength(1, { error: "Last name is required" }))
+  .max(50, { error: "Last name must be at most 50 characters" });
+
 export const loginSchema = z.object({ email: Email, password: Password });
 
 export type LoginFormValues = z.infer<typeof loginSchema>;
 
 export const registrationSchema = z
   .object({
+    firstName: FirstName,
+    lastName: LastName,
     email: Email,
     password: Password,
     repeatPassword: z

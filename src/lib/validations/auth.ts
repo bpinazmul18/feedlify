@@ -13,3 +13,23 @@ const Password = z
 export const loginSchema = z.object({ email: Email, password: Password });
 
 export type LoginFormValues = z.infer<typeof loginSchema>;
+
+export const registrationSchema = z
+  .object({
+    email: Email,
+    password: Password,
+    repeatPassword: z
+      .string()
+      .check(z.minLength(1, { error: "Please repeat your password" })),
+    agreeToTerms: z
+      .boolean()
+      .refine((val) => val === true, {
+        error: "You must agree to the terms & conditions",
+      }),
+  })
+  .refine((data) => data.password === data.repeatPassword, {
+    error: "Passwords do not match",
+    path: ["repeatPassword"],
+  });
+
+export type RegistrationFormValues = z.infer<typeof registrationSchema>;
